@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "524304396006",
+    "firebase_url": "https://loginyoyo-64c29.firebaseio.com",
+    "project_id": "loginyoyo-64c29",
+    "storage_bucket": "loginyoyo-64c29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524304396006:android:a2336d36bb63a597",
+        "android_client_info": {
+          "package_name": "com.techoflip.navdemo.login_yoyo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524304396006-mp0flq42aa4hapa90ca1ql0lc0shi1r6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techoflip.navdemo.login_yoyo",
+            "certificate_hash": "0a997c8a9c6257983b7e3ad83d4630540d7716a2"
+          }
+        },
+        {
+          "client_id": "524304396006-llrvsd3cmjphij8d957m1mctq5fkeknu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbJy9l-4UenM3pwQz4uipIWapVp-9S74c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "524304396006-llrvsd3cmjphij8d957m1mctq5fkeknu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

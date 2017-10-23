@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.techoflip.navdemo.login_yoyo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/helping_hand"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layoutInput"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:alpha=".5"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:paddingTop="30dp"
+            android:id="@+id/login_emailid"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/ic_action_name"
+            android:textColorHint="#ffffff"
+            android:textColor="#fff"
+            android:backgroundTint="#DCE8E2"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:id="@+id/login_password"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/ic_action_name_lock"
+            android:paddingTop="30dp"
+            android:textColorHint="#fff"
+            android:drawableEnd="@drawable/ic_action_name_eye"
+            android:textColor="#fff"
+            android:backgroundTint="#DCE8E2"/>
+
+        <EditText
+            android:id="@+id/adhar_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#DCE8E2"
+            android:drawableLeft="@drawable/ic_action_name_adhar"
+            android:drawablePadding="5dp"
+            android:hint="Aadhaar Number"
+            android:paddingTop="30dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <Button
+            android:background="@drawable/rec_background"
+            android:layout_marginTop="20dp"
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textAllCaps="false"
+            android:layout_marginBottom="10dp"/>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sign_up"
+        android:layout_above="@id/layoutInput"/>
+
+</RelativeLayout>
